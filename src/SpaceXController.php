@@ -73,12 +73,10 @@ class SpaceXController {
 
 
     public function capsules($uri){
-        $body = null;
-        if(is_object(file_get_contents("php://input"))){
-            $body = file_get_contents("php://input");
-        }
         
-        //echo $body;
+        $body = file_get_contents("php://input");
+        
+       
         $headers = [
             'Content-Type' => 'application/json; charset=UTF-8',
             // 'Access-Control-Allow-Origin' =>  '*',
