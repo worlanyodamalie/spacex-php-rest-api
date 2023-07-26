@@ -4,6 +4,9 @@ This API returns data on SpaceX capsules and launches
 
 To test API:
    - Run composer install
+     ```
+      composer install
+     ```
 
   - Create a .env file and add the following variable
  ```
